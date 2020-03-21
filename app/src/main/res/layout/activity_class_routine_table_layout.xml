@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassRoutineTableLayout"
+   >
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <Button
+                android:layout_width="63dp"
+                android:layout_height="88dp"
+                android:text="Sec A" />
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="88dp"
+                android:text="Sec B" />
+
+            <Button
+                android:layout_width="76dp"
+                android:layout_height="88dp"
+                android:text="sec c" />
+
+            <Button
+                android:id="@+id/FacID"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:text="Next Layout" />
+
+            <TextView
+                android:text="Section C"
+                android:paddingLeft="50dp"
+
+                />
+
+        </TableRow>
+    </TableLayout>
+          <ScrollView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:fillViewport="true">
+
+
+              <TableLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content">
+
+                  <TableRow
+                      android:background="@color/colorAccent"
+                      android:padding="8dp">
+
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:text="Day"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="Course No"
+                          android:textColor="@android:color/white" />
+
+
+
+
+                  </TableRow>
+
+
+                  <TableRow
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@color/colorPrimaryDark"
+
+                      android:padding="8dp"
+                      android:paddingRight="5dp">
+
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:text="Sun"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:text="CSE2209 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:text="CSE2207 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:text="CSE 2201 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:layout_weight="1"
+                          android:text="CSE2214(C2)CSE 2208(C1) time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+                  </TableRow>
+
+
+                  <TableRow
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@color/colorPrimaryDark"
+                      android:padding="8dp"
+                      >
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:paddingRight="10dp"
+                          android:text="Mon"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:paddingRight="10dp"
+                          android:text="CSE2213 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:paddingRight="10dp"
+                          android:text="CSE 2201 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="133dp"
+                          android:layout_weight="1"
+                          android:paddingRight="10dp"
+                          android:text="MATH 2203 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="130dp"
+                          android:layout_weight="1"
+                          android:paddingRight="10dp"
+                          android:text="CSE2210(C1/C2) or CSE2202(C1/C2)time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                  </TableRow>
+
+
+
+
+
+                  <TableRow
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@color/colorPrimaryDark"
+                      android:padding="8dp">
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Tue"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="CSE2209 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="CSE2207 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="CSE 2201 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:text="CSE2214(C2)CSE 2208(C1) time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+                  </TableRow>
+
+                  <TableRow
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@color/colorPrimaryDark"
+                      android:padding="8dp"
+                      >
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:paddingRight="5dp"
+                          android:text="Wed"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:paddingRight="10dp"
+                          android:text="CSE2213 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:paddingRight="10dp"
+                          android:text="CSE 2201 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:paddingRight="10dp"
+                          android:text="MATH 2203 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:paddingRight="10dp"
+                          android:text="CSE2210(C1/C2) or CSE2202(C1/C2)time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+                  </TableRow>
+
+
+
+
+                  <TableRow
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:background="@color/colorPrimaryDark"
+                      android:padding="8dp"
+                      >
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:paddingRight="5dp"
+                          android:text="Thu"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:paddingRight="10dp"
+                          android:text="CSE2213 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:paddingRight="10dp"
+                          android:text="CSE 2201 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:paddingRight="10dp"
+                          android:text="MATH 2203 time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+
+                      <TextView
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:layout_weight="1"
+                          android:paddingRight="10dp"
+                          android:text="CSE2210(C1/C2) or CSE2202(C1/C2)time:1.00-1.50PM room 7C04"
+                          android:textColor="@android:color/white" />
+                  </TableRow>
+
+
+
+
+              </TableLayout>
+
+
+
+          </ScrollView>
+
+
+
+
+
+
+
+</TableLayout>

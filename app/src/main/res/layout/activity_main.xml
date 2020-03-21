@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="4"
+    android:orientation="vertical"
+    >
+    <Button
+        android:id="@+id/ClassRoutineID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Class Routine"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/FacultyDetailsID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty Details"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/GoogleClassroomID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Importants Links"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+    <Button
+        android:id="@+id/CrSrContactNoID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CR SR Contact Number"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+</LinearLayout>

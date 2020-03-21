@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FacultyContactRelativeLayout">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/ButID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous Layout"
+        />
+    <Button
+        android:id="@+id/ButID2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Layout"
+        android:layout_alignParentRight="true"
+        />
+
+    <TextView
+        android:id="@+id/CourseNameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ButID"
+        android:text="Course N0"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <TextView
+        android:id="@+id/FacultyNameID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculty Name"
+        android:layout_below="@+id/ButID"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"/>
+
+
+    <TextView
+        android:id="@+id/nmC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FacultyNameID"
+        android:text="CSE 2201"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/nmT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FacultyNameID"
+        android:text="Ms. Raqeebir Rab"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/AlgoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nmC"
+        android:text="CSE 2207"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/AlgoT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nmT"
+        android:text="Mr. Md. Khairul Hasan"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:id="@+id/caC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AlgoC"
+        android:text="CSE 2213"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/caT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AlgoT"
+        android:text="Ms. Fatima Mirza"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/puC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/caC"
+        android:text="CSE 2209"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/puT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/caT"
+        android:text="Mr.Shoeb Md Shahriar"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/mtC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/puC"
+        android:text="MATH 2203"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="75dp"
+       />
+    <TextView
+        android:id="@+id/mtT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/puT"
+        android:text="Dr. Muhammad Saiful Islam Mallik"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignBaseline="@+id/mtC"/>
+
+    <TextView
+        android:id="@+id/assC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mtC"
+        android:text="CSE 2214"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="75dp"/>
+    <TextView
+        android:id="@+id/assT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mtT"
+        android:text="Ms. Anika Sayara and  Ms. Tahsin Aziz "
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignBaseline="@+id/assC"
+        />
+
+    <TextView
+        android:id="@+id/algoC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/assC"
+        android:text="CSE 2208"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:id="@+id/algoT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/assT"
+        android:text="	Mr. H M Zabir Haque and  Mr. G.M. Shahariar Shibli "
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignBaseline="@+id/algoC"/>
+
+    <TextView
+        android:id="@+id/nmLC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/algoC"
+        android:text="CSE 2202"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:id="@+id/nmLT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/algoT"
+        android:text="Ms. Raqeebir Rab and Prof. Dr. Mohammad Shafiul Alam "
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignBaseline="@+id/nmLC"/>
+
+    <TextView
+        android:id="@+id/puLC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nmLC"
+        android:text="CSE 2210"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="180dp"/>
+    <TextView
+        android:id="@+id/puLT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nmLT"
+        android:text="Mr. Shoeb Mohammad Shahriar, Mr. Al Hasib Mahamud "
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignBaseline="@+id/puLC"
+        />
+
+
+       <TextView
+           android:id="@+id/sdLC"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/puLC"
+           android:text="CSE 2200"
+           android:textStyle="bold"
+           android:textSize="20dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginTop="150dp"/>
+       <TextView
+           android:id="@+id/sdLT"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/puLT"
+           android:text="Mr. Md. Aminur Rahman and Ms. Nowshin Nawar Arony"
+           android:textSize="20dp"
+           android:layout_alignParentRight="true"
+           android:layout_marginLeft="250dp"
+           android:layout_marginTop="10dp"
+           android:layout_alignBaseline="@+id/sdLC"/>
+
+   </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
